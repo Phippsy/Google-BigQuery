@@ -1,3 +1,5 @@
+https://www.cbtnuggets.com/it-training/google-bigquery-qualified-developer/2?autostart=1
+
 # Google BigQuery notes
 
 ## Introduction video
@@ -121,7 +123,7 @@ Safari Books online. Have billions of records of usage data.
 
 - BigQuery interactive web UI. Great management / development tool.
 - Command line tool (BQ). Python tool. Allows us to do everything in the web UI tool and more. We can create scripts to automate the commmon management stuff.
-- [REST API:](http://developers.google.com/apis/explorer) build applications & tools which hit BigQuery through the REST API. 
+- [REST API:](http://developers.google.com/apis-explorer) build applications & tools which hit BigQuery through the REST API. 
 - 3rd party tools: visualisation tools (e.g. [BIME](http://www.bimeanalytics.com/)), loading tools, direct connect tools.
 
 
