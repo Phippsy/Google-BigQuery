@@ -6,4 +6,4 @@
 - [Introduction Video](introduction.md)
 - [BigQuery Basics](bq_basics.md)
 - [BigQuery Basics demo](bq_basics_demo.md)
-
+- [Importing and exporting data](importing_exporting.md)

@@ -1,7 +1,3 @@
-https://www.cbtnuggets.com/it-training/google-bigquery-qualified-developer/2?autostart=1
-
-# Google BigQuery notes
-
 ## Introduction video
 
 ### Video Outline
@@ -30,6 +26,10 @@ Google wanted to be self reliant, so they scaled out. Bought a fleet of commodit
 BigTable is the grandfather of NoSQL - MongoDB, etc.
 
 Due to the problems with Google's big data stack 1.0, they built out new technologies.
+
+**Google's cloud pipeline**
+
+![Google Cloud Pipeline](img/pipeline.png)
 
 1. Megastore - strong consistency on top of BigTable. If data goes through megastore to get into BigTable, it has to be hardened, committed to get in there.
 2. Spanner - "the next iteration of megastore". Does everything Megastore does, but on a planet-wide scale. Google installed GPS and atomic clocks in every data centre, to fix timing issues.
@@ -62,3 +62,5 @@ Data goes into Cloud Storage - imported from database / log files / other. Compu
 BigQuery provides a user-friendly front end to access this data.
 
 biquery-samples - a ton of example datasets.
+
+[<--Back](README.md)

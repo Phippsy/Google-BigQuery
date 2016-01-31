@@ -25,10 +25,6 @@ Safari Books online. Have billions of records of usage data.
 
 ### Pipeline to analysis
 
-**Google's cloud pipeline**
-
-![Google Cloud Pipeline](img/pipeline.png)
-
 1. Data in CRM, RDBMS, Log files, etc.
 2. Use ETL tools to transform data
 3. Get data into Google Cloud storage.
@@ -64,3 +60,5 @@ Safari Books online. Have billions of records of usage data.
 - Command line tool (BQ). Python tool. Allows us to do everything in the web UI tool and more. We can create scripts to automate the commmon management stuff.
 - [REST API:](http://developers.google.com/apis-explorer) build applications & tools which hit BigQuery through the REST API. 
 - 3rd party tools: visualisation tools (e.g. [BIME](http://www.bimeanalytics.com/)), loading tools, direct connect tools.
+
+[<--Back](README.md)

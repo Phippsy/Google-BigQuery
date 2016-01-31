@@ -3,7 +3,7 @@
 #### Using the web UI
 
 1. Enable billing and create a project
-	1. Go to [the developers console](http://console.developers.com/project) and sign in to your account.
+	1. Go to [the developers console](http://console.developers.google.com/) and sign in to your account.
 	2. Create a new project with a unique ID - this is the identifier in the cloud which you'll use to match data.
 	3. Enable billing: go to your project, head down to billing & settings, then enable billing.
 2. Create a new bucket in cloud storage.
@@ -38,3 +38,4 @@
 - load data: `bq load <dataset>.<table> <datasource>` (where datasource is the path to your file - could be local file system or google cloud storage).
 - Loading data asynchronously: `bq --nosync load <dataset>.<table> <datasource>` - This gives you a job ID - copy and paste that, then enter `bq wait <jobid>` to see the status.
 
+[<--Back](README.md)
