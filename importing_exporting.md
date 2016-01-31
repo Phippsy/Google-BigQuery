@@ -1,8 +1,9 @@
 # Importing and exporting data
 
 ## Data Formats
-Complex data / fast reading required: JSON
-Flat data: CSV
+
+-If complex data / fast reading is required - JSON
+-If flat data / extraction constraints: CSV
 
 CSV options
 - skipLeadingrows
@@ -17,9 +18,10 @@ Denormalise your data structure at the source. Flatten / join your data, so quer
 
 #### Transformation
 Convert existing formats to CSV/JSON.
+
 Relational format to:
-	- Flat (normalised), i.e. CSV
-	- Hybrid (Nested / repeated), i.e. JSON
+- Flat (normalised), i.e. CSV
+- Hybrid (Nested / repeated), i.e. JSON
 
 If converting XML to required formats - DOM-based parsers are really slow. 
 
@@ -51,7 +53,7 @@ If converting XML to required formats - DOM-based parsers are really slow.
 - Aggregation - depends on data & query patterns.
 - Cost: shard (/partition) data across multiple tables by time.
 	- e.g. break tables into new tables based on dimensions - such as year, state. If you use one big table, you're charged on how much data is processed. If you can limit the quota of data which is processed, you can avoid massive charges. Storage is cheap - querying is where the charges rack up. So if you break data out into specific tables, you limit the proessing.
-	- Useful tools to help with this include table joins and table wildcard - covered late.
+	- Useful tools to help with this include table joins and table wildcard - covered later.
 ![Loading process](img/loading.png)
 
 ##### Best practices
