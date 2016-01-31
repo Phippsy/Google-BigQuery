@@ -20,8 +20,10 @@ gcloud auth login
 
 ##### Load the data
 
-``` bq load --F " " --quote "" O5ImportingExporting *.gz language,title,requests:integer,content_size:integer
 ```
+bq load --F " " --quote "" O5ImportingExporting *.gz language,title,requests:integer,content_size:integer
+```
+
 above: 
 - `bq load` loading command
 - -`F` field delimiter
