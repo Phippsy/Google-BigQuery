@@ -9,3 +9,4 @@
 - [Importing and exporting data](importing_exporting.md)
 - [Importing and exporting demo](importing_exporting_demo.md)
 - [Querying data basics](querying_basics.md)
+- [Querying basics demo](querying_basics_demo.md)

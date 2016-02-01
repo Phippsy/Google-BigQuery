@@ -44,7 +44,7 @@ There are some great tools for calculating costs.
 
 #### Query syntax
 
-Very similar to standard SQL.
+Very similar to standard SQL. [Google BQ Query Reference](https://cloud.google.com/bigquery/query-reference?hl=en)
 
 - `SELECT` expressions can be literals, column names or functions.
 - `FROM` can be targets or sub selects, can be multiple tables (e.g. union).
