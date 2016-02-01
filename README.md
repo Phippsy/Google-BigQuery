@@ -8,3 +8,4 @@
 - [BigQuery Basics demo](bq_basics_demo.md)
 - [Importing and exporting data](importing_exporting.md)
 - [Importing and exporting demo](importing_exporting_demo.md)
+- [Querying data basics](querying_basics.md)

@@ -37,6 +37,7 @@ Once all the above are filled out, execute the command and your upload will begi
 #### Streaming data
 
 **Navigate to the Google apis explorer**
+
 https://developers.google.com/apis-explorer/#p/bigquery/v2/
 Use this to get an idea of how your JSON should be structured. Use streaming to add new records ad-hoc.
 
@@ -46,7 +47,7 @@ Request Body: kind: tabledatainsert all
 Then move to JSON, then rows - and enter in your schema for your rows.
 Execute the query and check the response you get, to make sure there are no errors, and that your JSON is correctly structured / formatted. This tool will also add data to your table if that's what you choose to do.
 
-![using the table checker](!img/API_table.png)
+![using the table checker](img/API_table.png)
 
 #### Sharding data in BQ
 
@@ -60,7 +61,7 @@ e.g. in Python, set a couple of nested for loops to split your master data table
 ##### From the web UI
 
 1. Navigate to your table in the BQ menu
-2. Use the drop-down arrow next to the talbe name
+2. Use the drop-down arrow next to the table name
 3. Choose export
 4. Choose output format
 5. Choose compression yes no
@@ -69,7 +70,8 @@ e.g. in Python, set a couple of nested for loops to split your master data table
 ##### From the CLI
 
 ```
-bq extract --destination_format = NEWLINE_DELIMITED_JSON 05ImportingExporting.BabyNames_2010_NY gs://gbqnugdata/babynames_2010_ny*.JSON
+bq extract --destination_format = NEWLINE_DELIMITED_JSON 
+05ImportingExporting.BabyNames_2010_NY gs://gbqnugdata/babynames_2010_ny*.JSON
 ```
 
 - `bq extract` = the command
