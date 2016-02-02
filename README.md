@@ -13,3 +13,4 @@
 - [Querying advanced demo](querying_advanced.md)
 - [Managing Data](managing_data.md)
 - [Managing Data Demo](managing_data_demo.md)
+- [BigQuery internals](bigquery_internals.md)

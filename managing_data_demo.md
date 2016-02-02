@@ -29,4 +29,3 @@ To view a shared dataset (it will not display in your drop-downs by default) - d
 - `bq update --expiration=900 shakespeare` - sets an expiration time on the table (15 mins in this case)
 - `bq head -n 10 shakespeare` looks at the top 10 rows of the given table
 - `bq help` provides a list of all the top level commands.
-
