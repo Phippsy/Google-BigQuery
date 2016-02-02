@@ -11,4 +11,5 @@
 - [Querying data basics](querying_basics.md)
 - [Querying basics demo](querying_basics_demo.md)
 - [Querying advanced demo](querying_advanced.md)
-
+- [Managing Data](managing_data.md)
+- [Managing Data Demo](managing_data_demo.md)

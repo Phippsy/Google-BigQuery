@@ -87,7 +87,7 @@ Example JSON to set this schema:
 e.g.:
 
 ```JSON
-[{"name": "profiles", "type": "RECORD", "mode": REPEATED", "fields": 
+[{"name": "profiles", "type": "RECORD", "mode": "REPEATED", "fields": 
 [{ <fields here> } ] }]
 ```
 
